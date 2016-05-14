@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "dillingham.ws"
 title_separator          : "-"
 name                     : "JP Dillingham"
-description              : "Stuff."
+description              : "A small personal blog on which I can share my projects and expertise with others."
 url                      : "http://dillingham.ws"
 baseurl                  : ""
 gh_repo                  :
