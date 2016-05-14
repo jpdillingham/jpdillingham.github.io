@@ -25,5 +25,12 @@ Among the classes I took was a course on Visual Basic which was taught using the
 
 In the fall of 2004 I enrolled at Western Illinois University with the goal of obtaining a Bachelor's degree in Computer Science.  I didn't appreciate the significance at the time but I now consider myself quite lucky that Western was one of the only colleges in the country offering Software Engineering as part of its CS curriculumn.  I had chosen the school based on the commutable (3 hours a day, which I did every day) distance from my parent's house and the affordability, but looking back I believe I still would make the same choice knowing what I know now.
 
+During my final two years of college I began working at Staples as a sales associate and, believing in the importance of establishing a strong working history, eventually worked myself up to roughly 35 hours a week, a set of keys to the store and the responsibility of opening and closing nearly every Saturday night/Sunday morning.
 
-I'm currently employed as a Senior Systems Engineer with an Industrial Automation integrator.  During my nine years of tenure
+I'm proud of the fact that while working nearly full time, I was able to maintain a 4.0 GPA among the courses in my major, and I graduated Western with honors.  I was also selected as the "Outstanding Senior" of 2007, which, as the name implies, is awarded to one Senior every year.
+
+## Employment
+
+The highlights of my professional career can be seen on LinkedIn so I won't rehash them here.  What I will add, though, is that in late 2015 I voluntarily stepped down from my position as manager.  The exact details behind the move are best discussed over beers, but the primary reason was that I don't feel that I'm done growing technically and therefore didn't want to start down a managerial path from which I couldn't easily return.
+
+I'm currently eagerly awaiting my next professional challenge while using some of my reclaimed free time to get back to what I love -- programming.
