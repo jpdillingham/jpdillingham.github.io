@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "dillingham.ws"
 title_separator          : "-"
 name                     : "JP Dillingham"
-description              : "An amazing website."
+description              : "Stuff."
 url                      : "http://dillingham.ws"
 baseurl                  : ""
 gh_repo                  :
@@ -35,7 +35,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : jpdillingham
 facebook:
   username               : 
   app_id                 :
@@ -71,10 +71,8 @@ author:
   codepen          :
   dribbble         :
   flickr           :
-  facebook         : "jpdillingham"
   foursquare       :
   github           : "jpdillingham"
-  google_plus      : "jpdillingham@gmail.com"
   keybase          :
   instagram        :
   lastfm           :
