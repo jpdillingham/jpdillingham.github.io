@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : "JP Dillingham"
 description              : "An amazing website."
 url                      : "http://dillingham.ws"
-baseurl                  : "/"
+baseurl                  : ""
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 # breadcrumbs            : false # true, false (default)
