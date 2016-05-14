@@ -17,6 +17,11 @@ For those curious, I've built the blog using [GitHub Pages](https://pages.github
 Here's some code so I can get the syntax coloring the way I want it:
 
 ```c#
+/// <summary>
+/// The alphabet.
+/// </summary>
+public static Dictionary<Tuple<char, FontSize>, string[]> Alphabet { get; private set; }
+
 
 /// <summary>
 /// Generates a larged, stylized string of characters corresponding to the input phrase.
