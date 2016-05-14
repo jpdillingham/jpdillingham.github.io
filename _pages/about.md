@@ -29,7 +29,7 @@ During my final two years of college I began working at Staples as a sales assoc
 
 I'm proud of the fact that while working nearly full time, I was able to maintain a 4.0 GPA among the courses in my major, and I graduated Western with honors.  I was also selected as the "Outstanding Senior" of 2007, which, as the name implies, is awarded to one Senior every year.
 
-## Employment
+## Professional
 
 The highlights of my professional career can be seen on LinkedIn so I won't rehash them here.  What I will add, though, is that in late 2015 I voluntarily stepped down from my position as manager.  The exact details behind the move are best discussed over beers, but the primary reason was that I don't feel that I'm done growing technically and therefore didn't want to start down a managerial path from which I couldn't easily return.
 
