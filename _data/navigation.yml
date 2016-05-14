@@ -1,16 +1,10 @@
 # main links links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-
   - title: "About"
-    url: https://mmistakes.github.io/minimal-mistakes/
+    url: https://dillingham.ws/about/
 
-  - title: "Sample Posts"
-    url: https://mmistakes.github.io/minimal-mistakes/year-archive/
+  - title: "Post Archive"
+    url: http://dillingham.ws/page-archive/
 
-  - title: "Sample Pages"
-    url: https://mmistakes.github.io/minimal-mistakes/page-archive/
-
-  - title: "Sample Collections"
-    url: https://mmistakes.github.io/minimal-mistakes/collection-archive/
+  - title: "Collections"
+    url: https://dillingham.ws/collection-archive/
