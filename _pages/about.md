@@ -31,6 +31,6 @@ I'm proud of the fact that while working nearly full time, I was able to maintai
 
 ## Professional
 
-The highlights of my professional career can be seen on LinkedIn so I won't rehash them here.  What I will add, though, is that in late 2015 I voluntarily stepped down from my position as manager.  The exact details behind the move are best discussed over beers, but the primary reason was that I don't feel that I'm done growing technically and therefore didn't want to start down a managerial path from which I couldn't easily return.
+The highlights of my professional career can be seen on LinkedIn so I won't rehash them here.  What I will add, though, is that in late 2015 I voluntarily stepped down from my position as manager, which I had held officially for the previous two years and unofficially for the two before that.  The exact details behind the move are best discussed over beers but the primary reason was that I don't feel that I'm done growing technically and therefore didn't want to start down a managerial path from which I couldn't easily return.
 
 I'm currently eagerly awaiting my next professional challenge while using some of my reclaimed free time to get back to what I love -- programming.
