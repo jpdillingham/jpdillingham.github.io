@@ -1,7 +1,7 @@
 ---
 title:  "Hello World!"
 header:
-  teaser: ""
+  teaser: "helloworld-teaser.jpg"
 categories:
 tags:
 ---
