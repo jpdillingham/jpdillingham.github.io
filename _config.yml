@@ -20,7 +20,7 @@ words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "facebook", "google-plus", custom"
   disqus:
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "dillingham"
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
@@ -63,7 +63,7 @@ google_ad_slot           :
 author:
   name             : "JP Dillingham"
   avatar           : "github.png"
-  bio              : "Systems Engineer"
+  bio              : "Senior Systems Engineer"
   location         : "Quad Cities, IL"
   email            : "jp@dillingham.ws"
   uri              : "http://dillingham.ws"
