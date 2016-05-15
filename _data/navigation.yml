@@ -1,5 +1,11 @@
 # main links links
 main:
+  - title: "Categories"
+    url: http://dillingham.ws/categories/
+    
+  - title: "Tags"
+    url: http://dillingham.ws/tags/
+    
   - title: "Archive"
     url: http://dillingham.ws/archive/
 
