@@ -6,8 +6,6 @@ categories:
 tags:
 ---
 
-# Technical Debt
-
 I came across the term ["Technical Debt"](https://www.wikiwand.com/en/Technical_debt) in an article this evening and I was surprised to find that not only is there a Wikipedia entry for the term but it closely matches a concept I've been thinking a lot about while developing a personal project.
 
 I've found that with past personal projects (and admittedly, usually professional ones) that quite frequently less than ideal decisions are made in the heat of the moment and that those decisions tend to pile up over the time.
