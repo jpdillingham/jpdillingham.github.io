@@ -1,7 +1,7 @@
 ---
 title:  "Technical Debt"
 header:
-  teaser: "helloworld-teaser.jpg"
+  teaser: "technical-debt-teaser.jpg"
 categories:
 tags:
 ---
