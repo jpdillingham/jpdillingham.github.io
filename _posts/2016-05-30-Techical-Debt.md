@@ -2,7 +2,7 @@
 title:  "Technical Debt"
 header:
   teaser: "technical-debt-teaser.png"
-categories:
+categories: editorial
 tags:
 ---
 
