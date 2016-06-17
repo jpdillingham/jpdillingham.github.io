@@ -164,7 +164,7 @@ public static ExampleObject ExitMethodPersistentExample(int one, int two)
 The ```Checkpoint()``` method logs an arbitrary checkpoint anywhere within the method body.  The method accepts a string representing the name of the checkpoint, an object array containing an arbitrary list of variables, a string array containing the names of the variables contained in the object list, 
 and an optional ```Guid```, used if the corresponding ```EnterMethod()``` call used the persistence option.
 
-Any number of variables may be passed.  Variables can be given names, which will be used to print the serialized value to the logger, or the names array can be omitted and variables will be named ordinally.  If names are to be used, the number of items in the included string array must match the number of 
+Any number of variables may be passed to the method.  Variables can be given names by passing an array of strings to the method.  These names will be used when printing the serialized value of each variable to the logger, or the names array can be omitted and variables will be named ordinally.  If names are to be used, the number of items in the included string array must match the number of 
 variables in the variable array.
 
 ### Example
