@@ -1,5 +1,5 @@
 ---
-title:  "xLogger - NLog Extension Class"
+title:  "xLogger - An NLog Extension Class"
 excerpt: "A C# class that extends NLog.Logger and provides additional functionality for tracing the entry and exit, arbitrary checkpoints, exceptions and stack traces within methods."
 header:
   teaser: "xlogger-teaser.PNG"
@@ -7,7 +7,7 @@ categories: "Tools"
 tags: "Intermediate"
 ---
 
-As I previously mentioned in my posts about [BigFont.cs](http://dillingham.ws/tools/BigFont-Update/) I've created a wrapper class for NLog that adds some additional functionality, primarily
+As I previously mentioned in my posts about [BigFont.cs](http://dillingham.ws/tools/BigFont-Update/), I've created a wrapper class for NLog that adds some additional functionality, primarily
 around the tracing of the execution flow of a program.  I've named the wrapper xLogger; short for Extended Logger.
 
 The primary purpose for this class is to make it easy to log the execution flow of a program.  The secondary purpose is to improve readability of log files with typographic elements such as 
