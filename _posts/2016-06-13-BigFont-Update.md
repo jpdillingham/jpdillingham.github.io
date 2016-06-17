@@ -3,8 +3,8 @@ title:  "BigFont.cs Update"
 excerpt: "A C# class that transforms strings into large, stylized characters."
 header:
   teaser: "bigfont-teaser.PNG"
-categories: "tools"
-tags: "beginner"
+categories: "Tools"
+tags: "Beginner"
 ---
 
 I [previously posted](http://dillingham.ws/tools/BigFont/) about a class I had written to support an NLog wrapper by allowing me to print strings as large characters.  I've made a couple of updates to the code which I thought warranted an update.
