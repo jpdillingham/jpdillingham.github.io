@@ -13,7 +13,7 @@ around the tracing of the execution flow of a program.  I've named the wrapper x
 The primary purpose for this class is to make it easy to log the execution flow of a program.  The secondary purpose is to improve readability of log files with typographic elements such as 
 larger fonts (pseudo), symbols and drawing elements.
 
-The code can be found on GitHub [here](https://github.com/jpdillingham/xLogger).
+The code can be found on GitHub [here](https://github.com/jpdillingham/xLogger), and the binaries can be downloaded from NuGet [here](https://www.nuget.org/packages/NLog.xLogger/).
 
 # Installation
 
