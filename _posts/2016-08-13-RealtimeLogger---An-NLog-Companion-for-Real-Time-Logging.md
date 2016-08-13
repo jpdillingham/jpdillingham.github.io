@@ -14,7 +14,7 @@ logging target.
 This target allows you to specify a static method to be invoked whenever a message is logged to a logger configured to write to it.  While this is pretty straightforward, I found the static method a little
 difficult to integrate into my forms application, and I wanted the ability to retrieve logs that were captured prior to my SignalR hub being started so that I could load them later.
 
-To answer both of these needs I created the RealtimeLogger class.
+To answer both of these needs I created the RealtimeLogger class.  The code can be found on GitHub [here](https://github.com/jpdillingham/RealtimeLogger) and the binaries can be downloaded from NuGet [here](https://www.nuget.org/packages/NLog.RealtimeLogger/).
 
 # Design
 
@@ -29,6 +29,8 @@ to this event and parse the supplied ```RealtimeLoggerEventArgs``` to retrieve t
 The third element is a queue of Type ```Queue<RealtimeLoggerEventArgs>```.  The queue contains the last N ```RealtimeLoggerEventArgs``` instances, where N is user-configurable by specifying a variable in the NLog configuration
 with the name ```RealtimeLogger.LogHistoryLimit```.  The nature of a queue is such that when new items are added, if it has reached it's limit, the oldest items are discarded.  The queue is exposed as the static property 
 ```RealtimeLogger.LogHistory```.
+
+A MethodLogger target corresponding to the RealtimeLogger's ```AppendLog``` method must be added, along with a logger configured to log to the target.  The configuration is described below.
 
 # Installation
 
@@ -91,7 +93,7 @@ When you are finished, your NLog configuration should look something like this:
 </nlog>
 ```
 
-#### NuGet Package Configuration
+## NuGet Package Configuration
 
 If you downloaded and installed the library from NuGet, your target should match the following:
 
