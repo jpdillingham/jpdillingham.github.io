@@ -90,6 +90,7 @@ When you are finished, your NLog configuration should look something like this:
   </rules>
 </nlog>
 ```
+
 #### NuGet Package Configuration
 
 If you downloaded and installed the library from NuGet, your target should match the following:
