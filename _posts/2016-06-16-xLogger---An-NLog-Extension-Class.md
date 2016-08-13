@@ -15,6 +15,12 @@ larger fonts (pseudo), symbols and drawing elements.
 
 The code can be found on GitHub [here](https://github.com/jpdillingham/xLogger).
 
+# Installation
+
+Install from the NuGet gallery GUI or with the Package Manager Console using the following command:
+
+```Install-Package NLog.xLogger```
+
 # Instantiating xLogger
 
 Typically when using NLog you'll have a variable declaration at the top of each class like the following:
