@@ -30,7 +30,7 @@ Without further explanation it may appear as though the definition of Open Sourc
 
 There are several dozen licenses that have been approved by the OSI.  A full list can be found [here](https://opensource.org/licenses/alphabetical), however I'll describe the most popular types later in this article.  The popular licenses fall into three major categories: Permissive, Weakly Protective and Strongly Protective:
 
-[![Open Source License Diagram](/images/open-source-licenses.png)
+![Open Source License Diagram](/images/open-source-licenses.png)
 
 Important to note here is that licenses are simply text, and to adopt a license a copyright holder simply needs to choose one that fits their needs and include that license along with their source code.  
 
@@ -40,17 +40,17 @@ The verbiage of the licenses linked above has been evaluated by the OSI and foun
 
 Permissive licenses are designed to fully embrace the spirit of Open Source by placing very few restrictions on how the software can be used and distributed.  The most popular permissive licenses are the MIT, BSD, and Apache 2.0 licenses.
 
-MIT
+[MIT](https://opensource.org/licenses/MIT)
 
 The MIT license, properly known as the X11 license, requires only that copies of the software are distributed with a copy of the license attached.  
 
-BSD
+[BSD](https://opensource.org/licenses/BSD-2-Clause)
 
 The preferred BSD license is also known as the BSD 2-Clause, the Simplified BSD, the Modified BSD and the FreeBSD license.  This version of the BSD license removes a clause forbidding advertisements from the previous BSD license.
 
 Like the MIT license, the BSD license requires that the license is propagated along with both the source code and the binary form of the program.
 
-Apache 2.0 
+[Apache 2.0](https://opensource.org/licenses/Apache-2.0)
 
 The Apache 2.0 license is considered permissive, however it has a few additional clauses than the two previous examples.  Like the MIT and BSD licenses, the original license must be distributed along with the software and source.  The Apache license also requires that if any changes to the source were made, a list of those changes is also distributed.
 
@@ -60,7 +60,7 @@ Lastly, the license also includes a license to any patents that may be in effect
 
 ### Weakly Protective 
 
-GNU LGPL 3.0
+[GNU LGPL 3.0](https://opensource.org/licenses/LGPL-3.0)
 
 The GNU LGPL (Lesser General Public License) 3.0 license is a "copyleft" license, meaning any derivations of the original work must also be released under the LGPL 3.0 license.
 
@@ -70,11 +70,11 @@ The LGPL license includes a clause which allows for libraries (typically, a comp
 
 ### Strongly Protective
 
-GNU GPL 3.0
+[GNU GPL 3.0](https://opensource.org/licenses/GPL-3.0)
 
 The GNU GPL (General Public License) 3.0 is the same as the LGPL variant without the clause allowing linking for libraries.
 
-GNU AGPL 3.0
+[GNU AGPL 3.0](https://opensource.org/licenses/AGPL-3.0)
 
 The GNU AGPL (Affero General Public License) 3.0 includes the GPL license and adds one important clause, sometimes called the "loophole" clause, which extends the "copyleft" requirement to software that connects to the licensed work via a network.
 
