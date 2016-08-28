@@ -2,7 +2,7 @@
 title:  "Understanding Open Source Licensing"
 excerpt: "A quick look at the most popular Open Source licenses."
 header:
-  teaser: "understanding-open-source-licensing-teaser.PNG"
+  teaser: "understanding-open-source-licensing-teaser.png"
 categories: "Editorial"
 tags:
 ---

@@ -24,7 +24,7 @@ comments:
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
-    num_posts            : # 10 (default)
+    num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 
 # SEO Related
@@ -175,7 +175,7 @@ defaults:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
