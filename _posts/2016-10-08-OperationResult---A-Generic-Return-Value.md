@@ -37,6 +37,10 @@ Install from the NuGet gallery GUI or with the Package Manager Console using the
 
 ```Install-Package Utility.OperationResult```
 
+# Detailed Overview
+
+The following sections describe the operation of the library.  This is taken pretty much verbatim from the readme on GitHub; head over there and read it if you prefer.
+
 # OperationResult.Result
 
 Represents the result of an operation, including a result code and list of messages generated during the operation.
@@ -125,6 +129,7 @@ retVal.AddError("This is another error message");
 // remove the messages that were just added
 retVal.RemoveMessages(MessageType.Error);
 ```
+
 ## SetResultCode()
 
 Sets the ResultCode property to the optionally supplied ResultCode, or to ResultCode.Success if ResultCode is not specified.
