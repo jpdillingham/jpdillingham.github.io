@@ -37,7 +37,7 @@ Install from the NuGet gallery GUI or with the Package Manager Console using the
 
 ```Install-Package Utility.OperationResult```
 
-## OperationResult.Result
+# OperationResult.Result
 
 Represents the result of an operation, including a result code and list of messages generated during the operation.
 
@@ -64,16 +64,16 @@ of the specified Result is "less than" that of the current instance, the instanc
 instance has a ResultCode of Warning and an Result with a ResultCode of Failure is incorporated, the ResultCode of the invoking instance
 will be changed to Failure.  This functionality is provided for nested or sequential operations.
 
-#### OperationResult.Result&lt;T&gt;
+## OperationResult.Result&lt;T&gt;
 
 The generic version of Result, ```Result{T}```, accepts a single type parameter and includes an additional property corresponding
 to the specified type in ```ReturnValue```.  This functionality is provided for operations which have a return value other than void, allowing these methods to return the original return value in addition to the Result.  This version also includes the ```SetReturnValue(T)``` method, which sets the value of the Result property to the specified value.  The property may also be set directly; this method, however, allows for fluent API usage.
 
-### Methods
+## Methods
 
-#### AddInfo()
+## AddInfo()
 Adds a message of type Info to the message list.
-##### Example
+### Example
 
 ```c#
 // create a new Result
@@ -83,11 +83,11 @@ Result retVal = new Result();
 retVal.AddInfo("This is an informational message");
 ```
 
-#### AddWarning()
+## AddWarning()
 
 Adds a message of type Warning to the message list and sets the ResultCode to Warning.
 
-##### Example
+### Example
 ```c#
 // create a new Result
 Result retVal = new Result();
@@ -96,11 +96,11 @@ Result retVal = new Result();
 retVal.AddWarning("This is a warning message");
 ```
 
-#### AddError()
+## AddError()
 
 Adds a message of type Error to the message list and sets the ResultCode to Error.
 
-##### Example
+### Example
 ```c#
 // create a new Result
 Result retVal = new Result();
@@ -109,11 +109,11 @@ Result retVal = new Result();
 retVal.AddError("This is an error message");
 ```
 
-#### RemoveMessages()
+### RemoveMessages()
 
 Removes all messages of the optionally specifiied MessageType, or all messages if MessageType is not specified.
 
-##### Example
+### Example
 ```c#
 // create a new Result
 Result retVal = new Result();
@@ -125,17 +125,17 @@ retVal.AddError("This is another error message");
 // remove the messages that were just added
 retVal.RemoveMessages(MessageType.Error);
 ```
-#### SetResultCode()
+## SetResultCode()
 
 Sets the ResultCode property to the optionally supplied ResultCode, or to ResultCode.Success if ResultCode is not specified.
 
-##### Example
+### Example
 ```c#
 // create a new Result and initialize the ResultCode to ResultCode.Failure
 Result retVal = new Result().SetResultCode(ResultCode.Failure)
 ```
 
-#### LogResult()
+## LogResult()
 
 Logs the result of the operation using the specified logger instance and the optionally specified caller as the source.
 
@@ -148,7 +148,7 @@ to reflect the actual source of the Result.
 If a logger different from NLog is desired, modify the type of the logger parameter accordingly and substitute
 the appropriate methods for info, warn and error log levels (assuming they are applicable).
 
-##### Example
+### Example
 ```c#
 // create a new Result
 Result retVal = new Result();
@@ -162,7 +162,7 @@ retVal.AddInfo("This is an informational message");
 retVal.LogResult(logger);
 ```
 
-##### Example Output
+### Example Output
 The following is an example of the output from the ```LogResult()``` method, taken from the included Example project:
 
 ```
@@ -172,11 +172,11 @@ The following is an example of the output from the ```LogResult()``` method, tak
 [INFO] [x]:      Attempts: 989
 ```
 
-#### LogAllMessages()
+## LogAllMessages()
 
 Logs all messages in the message list to the specified logging method.  If specified, logs a header and footer message before and after the list, respectively.
 
-##### Example
+### Example
 ```c#
 // create a new Result
 Result retVal = new Result();
@@ -192,11 +192,11 @@ retVal.AddWarning("This is a warning");
 retVal.LogAllMessages(logger.Info, "Message list:", "End of list.");
 ```
 
-#### GetLast[Info|Warning|Error]()
+## GetLast[Info|Warning|Error]()
 
 Returns the most recently added informational, warning or error message contained within the message list.
 
-##### Example
+### Example
 ```c#
 // create a new Result
 Result retVal = new Result();
@@ -208,12 +208,12 @@ retVal.AddInfo("This is an informational message");
 Console.WriteLine(retVal.GetLastInfo());
 ```
 
-#### Incorporate()
+## Incorporate()
 
 Adds details from the specified Result to this Result, including all Messages and the 
 ResutCode, if lesser than the ResultCode of this instance.
 
-##### Example
+### Example
 ```c#
 // create an "outer" Result
 // the ResultCode of this instance is Success by default.
@@ -235,11 +235,11 @@ outer.Incorporate(inner);
 outer.LogResult(logger); 
 ```
 
-#### SetReturnValue (Result(T) only)
+## SetReturnValue (Result(T) only)
 
 Sets the ReturnValue property to the specified value.
 
-##### Example
+### Example
 ```c#
 //create a new Result
 Result<string> result = new Result<string>()
