@@ -2,7 +2,7 @@
 title:  "SeedboxSync - A Java Console Application For Synching Files with a Seedbox via FTP"
 excerpt: "Enables download automation (via Sonarr, SickRage, etc.) by monitoring a local folder for new uploads (.torrents) and a remote FTP server for new downloads."
 header:
-  teaser: "seedboxsync.PNG"
+  teaser: "seedboxsync.png"
 categories: "Applications"
 ---
 
@@ -19,7 +19,7 @@ I wrote [SeedboxSync](https://github.com/jpdillingham/SeedboxSync).
 This Java console application scans a local "black hole" folder and uploads anything in it to the "watch" or "black hole" folder on the FTP server for your seedbox.  
 It then scans the remote downloads directory and downloads anything in the folder that hasn't been downloaded yet.
 
-The sections below walk you through the setup for the application, or you can head over to the [SeedboxSync GitHub repo](https://github.com/jpdillingham/SeedboxSync) and read the instructions there.  Have a look through the code,
+The sections below walk you through the setup for the application, or you can head over to the [SeedboxSync GitHub repo](https://github.com/jpdillingham/SeedboxSync) and read the instructions and download the latest release there.  Have a look through the code,
 and let me know of any issues via the GitHub Issues feature.
 
 # Prepare
@@ -67,3 +67,9 @@ Replace the values in brackets with your settings.
 From a command prompt, issue the command ```java -jar SeedboxSync-XXX.jar``` (where XXX is the current version) to launch the application.
 
 ![SeedboxSync Startup](http://jpdillingham.github.io/images/seedboxsync-startup.PNG)
+
+# Sync
+
+To download a new torrent automatically, save the .torrent file to the local upload directory.  The application will upload the file on the next synchronization and the torrent
+client running on your seedbox should add it and start the download.  When the download is finished the client should move the files to the completed folder and the application
+will locate and download the files to your local download directory the next time the synchronization is executed.
