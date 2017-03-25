@@ -9,7 +9,7 @@ tags: "Beginner"
 
 I [previously posted](http://dillingham.ws/tools/BigFont/) about a class I had written to support an NLog wrapper by allowing me to print strings as large characters.  I've made a couple of updates to the code which I thought warranted an update.
 
-Note that the BigFont binaries can now be found on NuGet [here](https://www.nuget.org/packages/BigFont/).
+Note that the BigFont binaries can now be found on NuGet [here](https://www.nuget.org/packages/Utility.BigFont/).
 
 ## Updated "Alphabet"
 
