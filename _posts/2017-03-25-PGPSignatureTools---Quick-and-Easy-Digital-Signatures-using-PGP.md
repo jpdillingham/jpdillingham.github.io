@@ -2,7 +2,7 @@
 title:  "PGPSignatureTools - Quick and Easy Digital Signatures using PGP"
 excerpt: "A C# Class Library for signing and verifying data using PGP encryption."
 header:
-  teaser: "pgpsignaturetools-teaser.png"
+  teaser: "pgpsignaturetools-teaser.PNG"
 categories: "Tools"
 ---
 

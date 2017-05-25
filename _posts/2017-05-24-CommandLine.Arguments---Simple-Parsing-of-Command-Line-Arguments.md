@@ -2,7 +2,7 @@
 title:  "CommandLine.Arguments - Simple Parsing of Command Line Arguments"
 excerpt: "A C# .NET Class Library containing tools for parsing the command line arguments of console applications."
 header:
-  teaser: "arguments-teaser.png"
+  teaser: "arguments-teaser.PNG"
 categories: "Tools"
 ---
 
