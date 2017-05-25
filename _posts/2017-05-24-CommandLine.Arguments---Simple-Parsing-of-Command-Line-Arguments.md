@@ -7,7 +7,8 @@ categories: "Tools"
 ---
 
 I needed a solution for parsing command line arguments and didn't like the existing options, so I wrote my own.  My primary goal was to create a lightweight, unobtrusive library that would
-cover all (or most) bases without requiring the creation of a dedicated class (however, you can if you like) and without requiring a bunch of lines of code to handle parsing.
+cover all (or most) bases without requiring the creation of a dedicated class to encapsulate the arguments (however, you can if you like) and without requiring a bunch of lines of code to handle parsing
+in my startup code.
 
 What I came up with clocks in at a little over 130 lines of code and fits in a single .cs file, perfect to include in your project as source or, if you prefer, as a NuGet package.  It's also got 
 100% code coverage and is verified to build on Windows and Mono.
